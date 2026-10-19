@@ -1,0 +1,149 @@
+[gd_scene format=3 uid="uid://v43xphycykik"]
+
+[sub_resource type="FontFile" id="FontFile_4w63e"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/31/0/ascent = 0.0
+cache/0/31/0/descent = 0.0
+cache/0/31/0/underline_position = 0.0
+cache/0/31/0/underline_thickness = 0.0
+cache/0/31/0/scale = 1.0
+cache/0/32/0/ascent = 0.0
+cache/0/32/0/descent = 0.0
+cache/0/32/0/underline_position = 0.0
+cache/0/32/0/underline_thickness = 0.0
+cache/0/32/0/scale = 1.0
+cache/0/33/0/ascent = 0.0
+cache/0/33/0/descent = 0.0
+cache/0/33/0/underline_position = 0.0
+cache/0/33/0/underline_thickness = 0.0
+cache/0/33/0/scale = 1.0
+cache/0/34/0/ascent = 0.0
+cache/0/34/0/descent = 0.0
+cache/0/34/0/underline_position = 0.0
+cache/0/34/0/underline_thickness = 0.0
+cache/0/34/0/scale = 1.0
+cache/0/35/0/ascent = 0.0
+cache/0/35/0/descent = 0.0
+cache/0/35/0/underline_position = 0.0
+cache/0/35/0/underline_thickness = 0.0
+cache/0/35/0/scale = 1.0
+cache/0/36/0/ascent = 0.0
+cache/0/36/0/descent = 0.0
+cache/0/36/0/underline_position = 0.0
+cache/0/36/0/underline_thickness = 0.0
+cache/0/36/0/scale = 1.0
+cache/0/37/0/ascent = 0.0
+cache/0/37/0/descent = 0.0
+cache/0/37/0/underline_position = 0.0
+cache/0/37/0/underline_thickness = 0.0
+cache/0/37/0/scale = 1.0
+cache/0/38/0/ascent = 0.0
+cache/0/38/0/descent = 0.0
+cache/0/38/0/underline_position = 0.0
+cache/0/38/0/underline_thickness = 0.0
+cache/0/38/0/scale = 1.0
+cache/0/39/0/ascent = 0.0
+cache/0/39/0/descent = 0.0
+cache/0/39/0/underline_position = 0.0
+cache/0/39/0/underline_thickness = 0.0
+cache/0/39/0/scale = 1.0
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+cache/0/41/0/ascent = 0.0
+cache/0/41/0/descent = 0.0
+cache/0/41/0/underline_position = 0.0
+cache/0/41/0/underline_thickness = 0.0
+cache/0/41/0/scale = 1.0
+cache/0/42/0/ascent = 0.0
+cache/0/42/0/descent = 0.0
+cache/0/42/0/underline_position = 0.0
+cache/0/42/0/underline_thickness = 0.0
+cache/0/42/0/scale = 1.0
+cache/0/43/0/ascent = 0.0
+cache/0/43/0/descent = 0.0
+cache/0/43/0/underline_position = 0.0
+cache/0/43/0/underline_thickness = 0.0
+cache/0/43/0/scale = 1.0
+cache/0/44/0/ascent = 0.0
+cache/0/44/0/descent = 0.0
+cache/0/44/0/underline_position = 0.0
+cache/0/44/0/underline_thickness = 0.0
+cache/0/44/0/scale = 1.0
+cache/0/45/0/ascent = 0.0
+cache/0/45/0/descent = 0.0
+cache/0/45/0/underline_position = 0.0
+cache/0/45/0/underline_thickness = 0.0
+cache/0/45/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_1oe1v"]
+font_size = 45
+font_color = Color(1, 1, 0.23921569, 1)
+shadow_color = Color(0.54487205, 0.40716964, 0.17865181, 0)
+stacked_shadow_count = 1
+
+[node name="Vitoria" type="Control" unique_id=2041826165]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2091657382]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1000.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=381035216]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -383.0
+offset_top = 17.0
+offset_right = 384.0
+offset_bottom = 104.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = SubResource("FontFile_4w63e")
+theme_override_font_sizes/font_size = 31
+text = "Parabéns você conseguiu alcançar o pote de OURO !! 
+Você venceu!
+
+
+
+
+
+Obrigado por jogar! 
+Autor:  Pietro Caetano Fleith
+IFSC - GAROPABA"
+label_settings = SubResource("LabelSettings_1oe1v")
+horizontal_alignment = 1

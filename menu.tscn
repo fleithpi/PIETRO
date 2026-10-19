@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c50y7kyxegh3"]
+
+[ext_resource type="Script" uid="uid://fq2oghn0anjc" path="res://menu.gd" id="1_lti8b"]
+[ext_resource type="Texture2D" uid="uid://dtvnttuquxgwy" path="res://GOLD OF THE DEEP.png" id="2_ouk20"]
+
+[node name="menu" type="Control" unique_id=343163101]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lti8b")
+
+[node name="GoldOfTheDeep" type="Sprite2D" parent="." unique_id=2130627227]
+position = Vector2(574.0625, 320.00003)
+scale = Vector2(1.0501142, 1.0547001)
+texture = ExtResource("2_ouk20")
+
+[node name="Jogar" type="Button" parent="." unique_id=469304540]
+layout_mode = 0
+offset_left = 918.0
+offset_top = 438.0
+offset_right = 1050.0
+offset_bottom = 515.0
+theme_override_font_sizes/font_size = 50
+text = "Jogar"
+
+[node name="Sair" type="Button" parent="." unique_id=1641369065]
+layout_mode = 0
+offset_left = 933.0
+offset_top = 537.0
+offset_right = 1033.0
+offset_bottom = 614.0
+theme_override_font_sizes/font_size = 50
+text = "Sair
+"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1082640073]
+layout_mode = 0
+offset_right = 353.0
+offset_bottom = 177.0

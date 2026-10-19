@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bhya160ps7kyd"]
+
+[ext_resource type="Script" uid="uid://bbearajjwkksa" path="res://moeda.gd" id="1_jvmwt"]
+[ext_resource type="Texture2D" uid="uid://cvgh3g8akffs" path="res://assets/Kauzz Forest Tiles/Collectables/silver_coin_strip4.png" id="2_bce4n"]
+[ext_resource type="AudioStream" uid="uid://x6cl3jcv0jje" path="res://u_byub5wd934-cashier-quotka-chingquot-sound-effect-129698.mp3" id="3_bce4n"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_loq3h"]
+radius = 38.0
+height = 76.0
+
+[node name="Moeda" type="Area2D" unique_id=27771043]
+script = ExtResource("1_jvmwt")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=603266335]
+position = Vector2(0, -1)
+scale = Vector2(1.3541666, 2)
+texture = ExtResource("2_bce4n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=613742414]
+position = Vector2(1, -2)
+shape = SubResource("CapsuleShape2D_loq3h")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=47966232]
+stream = ExtResource("3_bce4n")
+volume_db = 0.015
